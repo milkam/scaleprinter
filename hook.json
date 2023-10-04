@@ -1,0 +1,14 @@
+{
+    "event": "scalePrinterData",
+    "url": "https://scaleprinter-default-rtdb.firebaseio.com/scalePrinter/data.json",
+    "requestType": "POST",
+    "query": {
+    	"auth":"mOchMOKPNCD0PpIaVZyhzyc21s20WWBORvBQzNeu"
+    },
+    "json": {
+		"buttons": "{{buttonsValue}}",
+		"ts": "{{PARTICLE_PUBLISHED_AT}}"
+    },
+    "mydevices": true,
+    "noDefaults": true
+}
